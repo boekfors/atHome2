@@ -1,4 +1,0 @@
-listening on undefined:NaN
-- - - [Thu, 12 Dec 2013 10:27:17 GMT] "GET / HTTP/1.1" 200 723 "-" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/7.0)"
-- - - [Thu, 12 Dec 2013 10:27:18 GMT] "GET /stylesheets/images/ajax-loader.gif HTTP/1.1" 404 - "http://localhost:24142/" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/7.0)"
-- - - [Thu, 12 Dec 2013 10:27:18 GMT] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/7.0)"
