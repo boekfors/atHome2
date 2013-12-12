@@ -10,16 +10,4 @@ PagesController.main = function () {
     this.render();
 };
 
-PagesController.light = function () {
-    this.title = 'Ekfors@Home';
-    this.header = "Belysning";
-    this.render();
-};
-
-PagesController.heat = function () {
-    this.title = 'Ekfors@Home';
-    this.header = "Värme";
-    this.render();
-};
-
 module.exports = PagesController;

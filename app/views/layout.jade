@@ -2,23 +2,25 @@ doctype 5
 html
 	head
 		title= title
-		link(rel='stylesheet', href='stylesheets/jquery.mobile-1.3.2.css')
-		link(rel='stylesheet', href='stylesheets/style.css')
-		script(type='text/javascript', src='scripts/jquery-2.0.3.min.js')
-		script(type='text/javascript', src='scripts/jquery.mobile-1.3.2.js')
+		link(rel='stylesheet', href='/stylesheets/jquery.mobile-1.3.2.css')
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		script(type='text/javascript', src='/scripts/jquery-2.0.3.min.js')
+		script(type='text/javascript', src='/scripts/jquery.mobile-1.3.2.js')
 		meta(name="viewport", content="width=device-width, initial-scale=1")
 		block head
 	body
 		div(data-role="page")
-			div(data-role="header", data-theme="c", data-id="header", data-position="fixed")
-				h1=header
-				div(data-role="navbar", data-theme="b", data-id="navbar")
-					ul
-						li
-							a(data-role="button", data-theme="b", href="/pages/light") Belysning
-						li
-							a(data-role="button", data-theme="b", href="/pages/heat") Värme
-			div(data-role="content") 
-				block content
-			div(data-role="footer", data-theme="b", data-id="footer", data-position="fixed")
-				h1  
+			form
+				div(data-role="header", data-theme="c", data-id="header", data-position="fixed")
+					block headerleft
+					h1=header 
+					block headerright
+				div(data-role="content") 
+					block content
+				div(data-role="footer", data-theme="b", data-id="footer", data-position="fixed")
+					div(data-role="navbar", data-theme="b", data-id="navbar")
+						ul
+							li
+								a(data-role="button", data-theme="b", href="/light", data-icon="star") Belysning
+							li
+								a(data-role="button", data-theme="b", href="/heat", data-icon="home") Värme 

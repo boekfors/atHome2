@@ -1,8 +1,19 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.narrow
+{
+	width: 20% !important;
 }
 
-a {
-  color: #00B7FF;
+.wide
+{
+	width: 80% !important;
+}
+
+.small-button
+{
+	width: 100px !important;
+}
+
+.align-center
+{
+	text-align: center;
 }

@@ -7,7 +7,10 @@
 // information.
 module.exports = function routes()
 {
-	this.root('pages#main');
-	this.match('pages/light', 'pages#light');
-	this.match('pages/heat', 'pages#heat');
+	this.root('common#main');
+	this.match('light', 'light#status');
+	this.match('light/timechannels', 'light#timechannels');
+	this.match('light/settings', 'light#settings');
+
+	this.match('heat', 'heat#status');
 }
