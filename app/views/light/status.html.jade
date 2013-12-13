@@ -8,28 +8,18 @@ block headerright
 
 block content
 	form
-		div.ui-grid-b
+		div.ui-grid-a
 			div.ui-block-a 
 				h4 Grupp
 			div.ui-block-b 
 				h4 Status
-			div.ui-block-c 
-				h4 Funktion
-			- each light in lights
+			each light in lights
 					div.ui-block-a 
-						h4= light.name 
+						h4= light.Name 
 					div.ui-block-b 
-						select(data-role="slider", name=light.id + "_status", id=light.id + "_status")
-							option(value="Off") Släckt
-							option(value="On") Tänd
-					div.ui-block-c 
-						fieldset(data-role="controlgroup", data-type="horizontal")
-							input(type="radio", name=light.id + "_function", id=light.id + "_function_auto", value="Auto")
-							label(for=light.id + "_function_auto") Auto
-							input(type="radio", name=light.id + "_function", id=light.id + "_function_on", value="On")
-							label(for=light.id + "_function_on") På
-							input(type="radio", name=light.id + "_function", id=light.id + "_function_off", value="Off")
-							label(for=light.id + "_function_off") Av
+						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+							option(value="Off", if(light.Status) selected) Släckt
+							option(value="On", if(!light.Status)) Tänd	
 		div.align-center
 			a.smallbutton(data-role="button", href="/light/timechannels", data-theme="c", data-inline="true", data-icon="grid") Tidkanaler
 			a.smallbutton(data-role="button", href="/light/settings", data-theme="c", data-inline="true", data-icon="gear") Inställningar

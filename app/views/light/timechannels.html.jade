@@ -14,37 +14,37 @@ block content
 				h4 Grupp
 			div.ui-block-b.wide 
 				h4 Tidkanal
-			- each light in lights
+			each light in lights
 					div.ui-block-a.narrow 
-						h4= light.name + " - Vardag"
+						h4= light.Name + " - Vardag"
 					div.ui-block-b.wide 
 						fieldset(data-role="controlgroup", data-type="horizontal")
-							input(type="checkbox", name=light.id + "_week", id=light.id + "_week_morning", value="morning")
-							label(for=light.id + "_week_morning") Morgon
-							input(type="checkbox", name=light.id + "_week", id=light.id + "_week_am", value="am")
-							label(for=light.id + "_week_am") Förm.
-							input(type="checkbox", name=light.id + "_week", id=light.id + "_week_day", value="day")
-							label(for=light.id + "_week_day") Dag
-							input(type="checkbox", name=light.id + "_week", id=light.id + "_week_pm", value="pm")
-							label(for=light.id + "_week_pm") Efterm.
-							input(type="checkbox", name=light.id + "_week", id=light.id + "_week_evening", value="evening")
-							label(for=light.id + "_week_evening") Kväll
-							input(type="checkbox", name=light.id + "_week", id=light.id + "_week_night", value="night")
-							label(for=light.id + "_week_night") Natt
+							input(type="checkbox", name=light.Id + "_week", id=light.Id + "_week_morning", value="morning")
+							label(for=light.Id + "_week_morning") Morgon
+							input(type="checkbox", name=light.Id + "_week", id=light.Id + "_week_am", value="am")
+							label(for=light.Id + "_week_am") Förm.
+							input(type="checkbox", name=light.Id + "_week", id=light.Id + "_week_day", value="day")
+							label(for=light.Id + "_week_day") Dag
+							input(type="checkbox", name=light.Id + "_week", id=light.Id + "_week_pm", value="pm")
+							label(for=light.Id + "_week_pm") Efterm.
+							input(type="checkbox", name=light.Id + "_week", id=light.Id + "_week_evening", value="evening")
+							label(for=light.Id + "_week_evening") Kväll
+							input(type="checkbox", name=light.Id + "_week", id=light.Id + "_week_night", value="night")
+							label(for=light.Id + "_week_night") Natt
 					div.ui-block-a.narrow 
-						h4= light.name + " - Helg"
+						h4= light.Name + " - Helg"
 					div.ui-block-b.wide
 						fieldset(data-role="controlgroup", data-type="horizontal")
-							input(type="checkbox", name=light.id + "_weekend", id=light.id + "_weekend_morning", value="morning")
-							label(for=light.id + "_weekend_morning") Morgon
-							input(type="checkbox", name=light.id + "_weekend", id=light.id + "_weekend_am", value="am")
-							label(for=light.id + "_weekend_am") Förm.
-							input(type="checkbox", name=light.id + "_weekend", id=light.id + "_weekend_day", value="day")
-							label(for=light.id + "_weekend_day") Dag
-							input(type="checkbox", name=light.id + "_weekend", id=light.id + "_weekend_pm", value="pm")
-							label(for=light.id + "_weekend_pm") Efterm.
-							input(type="checkbox", name=light.id + "_weekend", id=light.id + "_weekend_evening", value="evening")
-							label(for=light.id + "_weekend_evening") Kväll
-							input(type="checkbox", name=light.id + "_weekend", id=light.id + "_weekend_night", value="night")
-							label(for=light.id + "_weekend_night") Natt
+							input(type="checkbox", name=light.Id + "_weekend", id=light.Id + "_weekend_morning", value="morning")
+							label(for=light.Id + "_weekend_morning") Morgon
+							input(type="checkbox", name=light.Id + "_weekend", id=light.Id + "_weekend_am", value="am")
+							label(for=light.Id + "_weekend_am") Förm.
+							input(type="checkbox", name=light.Id + "_weekend", id=light.Id + "_weekend_day", value="day")
+							label(for=light.Id + "_weekend_day") Dag
+							input(type="checkbox", name=light.Id + "_weekend", id=light.Id + "_weekend_pm", value="pm")
+							label(for=light.Id + "_weekend_pm") Efterm.
+							input(type="checkbox", name=light.Id + "_weekend", id=light.Id + "_weekend_evening", value="evening")
+							label(for=light.Id + "_weekend_evening") Kväll
+							input(type="checkbox", name=light.Id + "_weekend", id=light.Id + "_weekend_night", value="night")
+							label(for=light.Id + "_weekend_night") Natt
 		

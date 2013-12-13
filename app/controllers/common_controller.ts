@@ -1,5 +1,4 @@
-///<reference path='app.d.ts'/>
-// TypeScript
+///<reference path='../app.d.ts'/>
 var locomotive = require('locomotive'), Controller = locomotive.Controller;
 
 var PagesController = new Controller();
