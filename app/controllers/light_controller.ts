@@ -1,6 +1,7 @@
 ///<reference path='../app.d.ts'/>
-var Model = require('../model/model.js');
-var model = new Model();
+/// <reference path="../model/model.ts"/>
+
+var model = new Model(); 
 
 // TypeScript
 var locomotive = require('locomotive')

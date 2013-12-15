@@ -1,5 +1,5 @@
 ///<reference path='../app.d.ts'/>
-var Model = require('../model/model.js');
+/// <reference path="../model/model.ts"/>
 var model = new Model();
 
 // TypeScript
