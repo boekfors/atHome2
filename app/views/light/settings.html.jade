@@ -21,16 +21,18 @@ block content
 						h4= light.Name
 					div.ui-block-b
 						fieldset(data-role="controlgroup", data-type="horizontal")
-							input(type="radio", name=light.Id + "_function", id=light.Id + "_function_auto", value="Auto")
+							input(type="radio", name=light.Id + "_function", id=light.Id + "_function_auto", value="0", checked=(light.FunctionMode===0 ? "checked" : undefined))
 							label(for=light.Id + "_function_auto") Auto
-							input(type="radio", name=light.Id + "_function", id=light.Id + "_function_on", value="On")
+							input(type="radio", name=light.Id + "_function", id=light.Id + "_function_on", value="1", checked=(light.FunctionMode===1 ? "checked" : undefined))
 							label(for=light.Id + "_function_on") På
-							input(type="radio", name=light.Id + "_function", id=light.Id + "_function_off", value="Off")
+							input(type="radio", name=light.Id + "_function", id=light.Id + "_function_limit", value="2", checked=(light.FunctionMode===2 ? "checked" : undefined))
+							label(for=light.Id + "_function_limit") Begr
+							input(type="radio", name=light.Id + "_function", id=light.Id + "_function_off", value="4", checked=(light.FunctionMode===4 ? "checked" : undefined))
 							label(for=light.Id + "_function_off") Av
 					div.ui-block-c 
 						if light.HasTimer
 							label(for=light.Id + "_delay")
-							input(type="range", id=light.Id + "_delay", name=light.Id + "_delay" min="0", max="30", step="5", value="0")
+							input(type="range", id=light.Id + "_delay", name=light.Id + "_delay" min="0", max="30", step="5", value=light.TimerDelay)
 
 						
 		

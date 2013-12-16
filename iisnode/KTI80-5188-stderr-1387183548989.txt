@@ -1,0 +1,380 @@
+Error: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:22
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+    21| 							option(value="Off", if(light.Status) selected) Släckt
+  > 22| 							option(value="On", if(!light.Status)) Tänd	
+    23| 		div.align-center
+    24| 			a.smallbutton(data-role="button", href="/light/timechannels", data-theme="c", data-inline="true", data-icon="grid") Tidkanaler
+    25| 			a.smallbutton(data-role="button", href="/light/settings", data-theme="c", data-inline="true", data-icon="gear") Inställningar
+
+Unexpected character l expected `=`
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:619:46)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:625:17)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+Error: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:22
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+    21| 							option(value="Off", if(light.Status) selected) Släckt
+  > 22| 							option(value="On", if(!light.Status)) Tänd	
+    23| 		div.align-center
+    24| 			a.smallbutton(data-role="button", href="/light/timechannels", data-theme="c", data-inline="true", data-icon="grid") Tidkanaler
+    25| 			a.smallbutton(data-role="button", href="/light/settings", data-theme="c", data-inline="true", data-icon="gear") Inställningar
+
+Unexpected character l expected `=`
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:619:46)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:625:17)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+Error: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:22
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+    21| 							option(value="Off", if(light.Status) selected) Släckt
+  > 22| 							option(value="On", if(!light.Status)) Tänd	
+    23| 		//div.align-center
+    24| 			//a.smallbutton(data-role="button", href="/light/timechannels", data-theme="c", data-inline="true", data-icon="grid") Tidkanaler
+    25| 			//a.smallbutton(data-role="button", href="/light/settings", data-theme="c", data-inline="true", data-icon="gear") Inställningar
+
+Unexpected character l expected `=`
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:619:46)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:625:17)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+Error: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:22
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+    21| 							option(value="Off", if(light.Status) selected) Släckt
+  > 22| 							option(value="On", if(!light.Status)) Tänd	
+    23| 		//div.align-center
+    24| 			//a.smallbutton(data-role="button", href="/light/timechannels", data-theme="c", data-inline="true", data-icon="grid") Tidkanaler
+    25| 			//a.smallbutton(data-role="button", href="/light/settings", data-theme="c", data-inline="true", data-icon="gear") Inställningar
+
+Unexpected character l expected `=`
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:619:46)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:625:17)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+Error: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:22
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+    21| 							option(value="On", if(light.Status) {selected}) Släckt
+  > 22| 							option(value="Off", if(!light.Status) {selected}) Tänd	
+    23| 		//div.align-center
+    24| 			//a.smallbutton(data-role="button", href="/light/timechannels", data-theme="c", data-inline="true", data-icon="grid") Tidkanaler
+    25| 			//a.smallbutton(data-role="button", href="/light/settings", data-theme="c", data-inline="true", data-icon="gear") Inställningar
+
+Unexpected character l expected `=`
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:619:46)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:625:17)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+Error: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:22
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+    21| 							option(value="On", if(light.Status) selected) Släckt
+  > 22| 							option(value="Off", if(!light.Status) selected) Tänd	
+    23| 		//div.align-center
+    24| 			//a.smallbutton(data-role="button", href="/light/timechannels", data-theme="c", data-inline="true", data-icon="grid") Tidkanaler
+    25| 			//a.smallbutton(data-role="button", href="/light/settings", data-theme="c", data-inline="true", data-icon="gear") Inställningar
+
+Unexpected character l expected `=`
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:619:46)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:625:17)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+Error: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:22
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+    21| 							option(value="On", if(light.Status) selected) Släckt
+  > 22| 							option(value="Off", if(!light.Status) selected) Tänd	
+    23| 		//div.align-center
+    24| 			//a.smallbutton(data-role="button", href="/light/timechannels", data-theme="c", data-inline="true", data-icon="grid") Tidkanaler
+    25| 			//a.smallbutton(data-role="button", href="/light/settings", data-theme="c", data-inline="true", data-icon="gear") Inställningar
+
+Unexpected character l expected `=`
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:619:46)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:625:17)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+Error: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:22
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+    21| 							option(value="On", if(light.Status) selected) Släckt
+  > 22| 							option(value="Off", if(!light.Status) selected) Tänd	
+    23| 		//div.align-center
+    24| 			//a.smallbutton(data-role="button", href="/light/timechannels", data-theme="c", data-inline="true", data-icon="grid") Tidkanaler
+    25| 			//a.smallbutton(data-role="button", href="/light/settings", data-theme="c", data-inline="true", data-icon="gear") Inställningar
+
+Unexpected character l expected `=`
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:619:46)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:625:17)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+Error: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:22
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+    21| 							option(value="On", if(light.Status) selected) Släckt
+  > 22| 							option(value="Off", if(!light.Status) selected) Tänd	
+    23| 		//div.align-center
+    24| 			//a.smallbutton(data-role="button", href="/light/timechannels", data-theme="c", data-inline="true", data-icon="grid") Tidkanaler
+    25| 			//a.smallbutton(data-role="button", href="/light/settings", data-theme="c", data-inline="true", data-icon="gear") Inställningar
+
+Unexpected character l expected `=`
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:619:46)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:625:17)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+Error: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:22
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+    21| 							option(value="On", if(light.Status) selected) Släckt
+  > 22| 							option(value="Off", if(!light.Status) selected) Tänd	
+    23| 		//div.align-center
+    24| 			//a.smallbutton(data-role="button", href="/light/timechannels", data-theme="c", data-inline="true", data-icon="grid") Tidkanaler
+    25| 			//a.smallbutton(data-role="button", href="/light/settings", data-theme="c", data-inline="true", data-icon="gear") Inställningar
+
+Unexpected character l expected `=`
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:619:46)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:625:17)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+SyntaxError: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:21
+    19| 					div.ui-block-b 
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+  > 21| 							option(value="On", if(light.Status == true) selected) Släckt
+    22| 							option(value="Off", if(light.Status == false) selected) Tänd	
+    23| 		//div.align-center
+    24| 			//a.smallbutton(data-role="button", href="/light/timechannels", data-theme="c", data-inline="true", data-icon="grid") Tidkanaler
+
+Unexpected token =
+    at Function (unknown source)
+    at assertExpression (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:39:3)
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:593:20)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+SyntaxError: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:21
+    19| 					div.ui-block-b 
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+  > 21| 							option(value="On", if(light.Status = true) selected) Släckt
+    22| 							option(value="Off", if(light.Status = false) selected) Tänd	
+    23| 		//div.align-center
+    24| 			//a.smallbutton(data-role="button", href="/light/timechannels", data-theme="c", data-inline="true", data-icon="grid") Tidkanaler
+
+Unexpected identifier
+    at Function (unknown source)
+    at assertExpression (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:39:3)
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:593:20)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+Error: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:21
+    19| 					div.ui-block-b 
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+  > 21| 							option(value="On", (=light.Status == true ? "selected"" : "")) Släckt
+    22| 							option(value="Off") Tänd	
+    23| 						span= light.Status
+    24| 		div.align-center
+
+The end of the string was reached with no closing bracket found.
+    at Function.parseMax (C:\Projects\GitHub\atHome2\node_modules\jade\node_modules\character-parser\index.js:26:13)
+    at Object.Lexer.bracketExpression (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:138:33)
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:524:24)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+SyntaxError: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:21
+    19| 					div.ui-block-b 
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+  > 21| 							option(value="On", (=light.Status == true ? "selected" : "")) Släckt
+    22| 							option(value="Off") Tänd	
+    23| 						span= light.Status
+    24| 		div.align-center
+
+Unexpected token )
+    at Function (unknown source)
+    at assertExpression (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:39:3)
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:593:20)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+SyntaxError: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:21
+    19| 					div.ui-block-b 
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+  > 21| 							option(value="On", (light.Status == true ? "selected" : "")) Släckt
+    22| 							option(value="Off") Tänd	
+    23| 						span= light.Status
+    24| 		div.align-center
+
+Unexpected token =
+    at Function (unknown source)
+    at assertExpression (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:39:3)
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:593:20)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+SyntaxError: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:21
+    19| 					div.ui-block-b 
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+  > 21| 							option(value="On", (light.Status = true ? "selected" : "")) Släckt
+    22| 							option(value="Off") Tänd	
+    23| 						span= light.Status
+    24| 		div.align-center
+
+Unexpected token )
+    at Function (unknown source)
+    at assertExpression (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:39:3)
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:593:20)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+SyntaxError: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:21
+    19| 					div.ui-block-b 
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+  > 21| 							option(value="On", (light.Status === true ? "selected" : "")) Släckt
+    22| 							option(value="Off") Tänd	
+    23| 						span= light.Status
+    24| 		div.align-center
+
+Unexpected token ==
+    at Function (unknown source)
+    at assertExpression (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:39:3)
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:593:20)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+SyntaxError: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:21
+    19| 					div.ui-block-b 
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+  > 21| 							option(value="On", (light.Status === true ? "selected" : "")) Släckt
+    22| 							option(value="Off") Tänd	
+    23| 						span= light.Status
+    24| 		div.align-center
+
+Unexpected token ==
+    at Function (unknown source)
+    at assertExpression (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:39:3)
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:593:20)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+SyntaxError: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:21
+    19| 					div.ui-block-b 
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+  > 21| 							option(value="On", (light.Status === true ? 'selected' : '')) Släckt
+    22| 							option(value="Off") Tänd	
+    23| 						span= light.Status
+    24| 		div.align-center
+
+Unexpected token ==
+    at Function (unknown source)
+    at assertExpression (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:39:3)
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:593:20)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)
+SyntaxError: C:\Projects\GitHub\atHome2\app\views\light\status.html.jade:21
+    19| 					div.ui-block-b 
+    20| 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
+  > 21| 							option(value="On", (light.Status === true ? 'selected' : '')) Släckt
+    22| 							option(value="Off") Tänd	
+    23| 						span= light.Status
+    24| 		div.align-center
+
+Unexpected token ==
+    at Function (unknown source)
+    at assertExpression (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:39:3)
+    at Object.Lexer.attrs (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:593:20)
+    at Object.Lexer.next (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:788:15)
+    at Object.Lexer.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\lexer.js:122:46)
+    at Object.Parser.lookahead (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:116:23)
+    at Object.Parser.parseTag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:618:25)
+    at Object.Parser.parseExpr (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:199:21)
+    at Object.Parser.block (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:593:25)
+    at Object.Parser.tag (C:\Projects\GitHub\atHome2\node_modules\jade\lib\parser.js:722:26)

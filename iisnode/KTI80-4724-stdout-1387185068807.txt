@@ -1,0 +1,5 @@
+listening on undefined:NaN
+- - - [Mon, 16 Dec 2013 09:11:09 GMT] "GET /light/settings HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+- - - [Mon, 16 Dec 2013 09:11:18 GMT] "GET /light/timechannels HTTP/1.1" 200 6825 "http://localhost:34903/light/settings" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+- - - [Mon, 16 Dec 2013 09:11:35 GMT] "GET /light/timechannels HTTP/1.1" 200 6825 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
+- - - [Mon, 16 Dec 2013 09:11:35 GMT] "GET /scripts/timechannels.js HTTP/1.1" 404 - "http://localhost:34903/light" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"

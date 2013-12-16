@@ -1,0 +1,8 @@
+listening on undefined:NaN
+- - - [Mon, 16 Dec 2013 09:15:19 GMT] "GET /light/timechannels HTTP/1.1" 200 6831 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36"
+- - - [Mon, 16 Dec 2013 09:15:20 GMT] "GET /scripts/jquery-2.0.3.min.map HTTP/1.1" 404 - "http://localhost:34903/light/timechannels" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36"
+- - - [Mon, 16 Dec 2013 09:15:20 GMT] "GET /favicon.ico HTTP/1.1" 200 1406 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36"
+- - - [Mon, 16 Dec 2013 09:16:56 GMT] "GET /light/timechannels HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36"
+- - - [Mon, 16 Dec 2013 09:16:57 GMT] "GET /scripts/jquery-2.0.3.min.map HTTP/1.1" 404 - "http://localhost:34903/light/timechannels" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36"
+- - - [Mon, 16 Dec 2013 09:17:17 GMT] "GET /light/timechannels HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36"
+- - - [Mon, 16 Dec 2013 09:17:17 GMT] "GET /scripts/jquery-2.0.3.min.map HTTP/1.1" 404 - "http://localhost:34903/light/timechannels" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36"

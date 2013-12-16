@@ -1,6 +1,7 @@
 extends ../layout
 
 block head
+	script(type='text/javascript', src='/scripts/light/timechannels.js')
 
 block headerleft
 	a(data-role="button", data-rel="back", data-theme="c", data-icon="arrow-l") Tillbaka
@@ -18,33 +19,33 @@ block content
 					div.ui-block-a.narrow 
 						h4= light.Name + " - Vardag"
 					div.ui-block-b.wide 
-						fieldset(data-role="controlgroup", data-type="horizontal")
-							input(type="checkbox", name=light.Id + "_week", id=light.Id + "_week_morning", value="morning")
+						fieldset(data-role="controlgroup", data-type="horizontal", name=light.Id)
+							input(type="checkbox", name=light.Id, id=light.Id + "_week_morning", value="1")
 							label(for=light.Id + "_week_morning") Morgon
-							input(type="checkbox", name=light.Id + "_week", id=light.Id + "_week_am", value="am")
+							input(type="checkbox", name=light.Id, id=light.Id + "_week_am", value="2")
 							label(for=light.Id + "_week_am") Förm.
-							input(type="checkbox", name=light.Id + "_week", id=light.Id + "_week_day", value="day")
+							input(type="checkbox", name=light.Id, id=light.Id + "_week_day", value="4")
 							label(for=light.Id + "_week_day") Dag
-							input(type="checkbox", name=light.Id + "_week", id=light.Id + "_week_pm", value="pm")
+							input(type="checkbox", name=light.Id, id=light.Id + "_week_pm", value="8")
 							label(for=light.Id + "_week_pm") Efterm.
-							input(type="checkbox", name=light.Id + "_week", id=light.Id + "_week_evening", value="evening")
+							input(type="checkbox", name=light.Id, id=light.Id + "_week_evening", value="16")
 							label(for=light.Id + "_week_evening") Kväll
-							input(type="checkbox", name=light.Id + "_week", id=light.Id + "_week_night", value="night")
+							input(type="checkbox", name=light.Id, id=light.Id + "_week_night", value="32")
 							label(for=light.Id + "_week_night") Natt
+							input(type="hidden", id=light.Id + "_value", value=light.TimeChannels)
 					div.ui-block-a.narrow 
 						h4= light.Name + " - Helg"
 					div.ui-block-b.wide
 						fieldset(data-role="controlgroup", data-type="horizontal")
-							input(type="checkbox", name=light.Id + "_weekend", id=light.Id + "_weekend_morning", value="morning")
+							input(type="checkbox", name=light.Id, id=light.Id + "_weekend_morning", value="64")
 							label(for=light.Id + "_weekend_morning") Morgon
-							input(type="checkbox", name=light.Id + "_weekend", id=light.Id + "_weekend_am", value="am")
+							input(type="checkbox", name=light.Id, id=light.Id + "_weekend_am", value="128")
 							label(for=light.Id + "_weekend_am") Förm.
-							input(type="checkbox", name=light.Id + "_weekend", id=light.Id + "_weekend_day", value="day")
+							input(type="checkbox", name=light.Id, id=light.Id + "_weekend_day", value="256")
 							label(for=light.Id + "_weekend_day") Dag
-							input(type="checkbox", name=light.Id + "_weekend", id=light.Id + "_weekend_pm", value="pm")
+							input(type="checkbox", name=light.Id, id=light.Id + "_weekend_pm", value="512")
 							label(for=light.Id + "_weekend_pm") Efterm.
-							input(type="checkbox", name=light.Id + "_weekend", id=light.Id + "_weekend_evening", value="evening")
+							input(type="checkbox", name=light.Id, id=light.Id + "_weekend_evening", value="1024")
 							label(for=light.Id + "_weekend_evening") Kväll
-							input(type="checkbox", name=light.Id + "_weekend", id=light.Id + "_weekend_night", value="night")
+							input(type="checkbox", name=light.Id, id=light.Id + "_weekend_night", value="2048")
 							label(for=light.Id + "_weekend_night") Natt
-		

@@ -18,8 +18,8 @@ block content
 						h4= light.Name 
 					div.ui-block-b 
 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
-							option(value="Off", if(light.Status) selected) Släckt
-							option(value="On", if(!light.Status)) Tänd	
+							option(value="On", selected=(light.Status===false ? "selected" : undefined)) Släckt
+							option(value="Off", selected=(light.Status===true ? "selected" : undefined)) Tänd	
 		div.align-center
 			a.smallbutton(data-role="button", href="/light/timechannels", data-theme="c", data-inline="true", data-icon="grid") Tidkanaler
 			a.smallbutton(data-role="button", href="/light/settings", data-theme="c", data-inline="true", data-icon="gear") Inställningar

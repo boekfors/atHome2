@@ -1,5 +1,31 @@
 ///<reference path='../app.d.ts'/>
-/// <reference path="../model/model.ts"/>
+var Model = (function () {
+    function Model() {
+        this.Lights = [
+            new Light('Entré', 'entre', true),
+            new Light('Framsida', 'framsida', false),
+            new Light('Baksida', 'baksida', true)];
+    }
+    return Model;
+})();
+
+var Light = (function () {
+    function Light(name, id, hasTimer) {
+        this.name = name;
+        this.id = id;
+        this.hasTimer = hasTimer;
+        this.Name = name;
+        this.Id = id;
+        this.HasTimer = hasTimer;
+        this.Status = true;
+        this.FunctionMode = 1;
+        this.TimerDelay = 5;
+        this.WeekdayTimeChannels = 0;
+        this.WeekendTimechannels = 0;
+    }
+    return Light;
+})();
+
 var model = new Model();
 
 // TypeScript
@@ -23,7 +49,7 @@ PagesController.timechannels = function () {
 
 PagesController.settings = function () {
     this.title = 'Ekfors@Home';
-    this.header = "Tidkanaler";
+    this.header = "Inställningar";
     this.lights = model.Lights;
     this.render();
 };

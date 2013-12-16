@@ -1,7 +1,36 @@
 ///<reference path='../app.d.ts'/>
-/// <reference path="../model/model.ts"/>
 
-var model = new Model(); 
+class Model
+{
+    Lights : Light[] = [new Light('Entré','entre',true),
+		new Light('Framsida','framsida',false),
+		new Light('Baksida','baksida',true)];
+}
+
+class Light
+{
+	Name: string;
+	Id: string;
+	HasTimer: boolean;
+	Status: boolean;
+	FunctionMode: number;
+	TimerDelay: number;
+	WeekdayTimeChannels: number;
+	WeekendTimechannels: number;
+
+		constructor(public name, public id, public hasTimer)
+		{
+			this.Name = name;
+			this.Id = id;
+			this.HasTimer = hasTimer;
+			this.Status = true;
+			this.FunctionMode = 1;
+			this.TimerDelay = 5;
+			this.TimeChannels = 1;
+		}
+}
+
+var model = new Model();
 
 // TypeScript
 var locomotive = require('locomotive')
@@ -25,7 +54,7 @@ PagesController.timechannels = function() {
 
 PagesController.settings = function() {
   this.title = 'Ekfors@Home';
-  this.header = "Tidkanaler";
+  this.header = "Inställningar";
   this.lights = model.Lights;
   this.render();
 }
