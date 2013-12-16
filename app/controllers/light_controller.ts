@@ -15,8 +15,7 @@ class Light
 	Status: boolean;
 	FunctionMode: number;
 	TimerDelay: number;
-	WeekdayTimeChannels: number;
-	WeekendTimechannels: number;
+	TimeChannels: number;
 
 		constructor(public name, public id, public hasTimer)
 		{

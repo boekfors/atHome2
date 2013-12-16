@@ -1,0 +1,2 @@
+C:\Projects\GitHub\atHome2\app\views\light\timechannels.html.jade, line 5:
+Implicit textOnly for `script` and `style` is deprecated.  Use `script.` or `style.` instead.

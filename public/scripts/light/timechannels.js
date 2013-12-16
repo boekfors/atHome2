@@ -1,8 +1,8 @@
 $(document).ready(function ()
 {
-	lights.each(function ()
+	lights.forEach(function (item)
 	{
-		checkWithValue(this.Timechannels, this.Id);
+		checkWithValue(item.TimeChannels, item.Id);
 	});
 
 });

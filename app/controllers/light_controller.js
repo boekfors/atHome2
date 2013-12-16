@@ -20,8 +20,7 @@ var Light = (function () {
         this.Status = true;
         this.FunctionMode = 1;
         this.TimerDelay = 5;
-        this.WeekdayTimeChannels = 0;
-        this.WeekendTimechannels = 0;
+        this.TimeChannels = 1;
     }
     return Light;
 })();
