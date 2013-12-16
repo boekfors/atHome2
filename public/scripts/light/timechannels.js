@@ -4,12 +4,13 @@ $(document).ready(function ()
 	{
 		checkWithValue(item.TimeChannels, item.Id);
 	});
-
 });
 
-
 function checkWithValue(val, group) {
-    $(":checkbox").filter(function() {
-        return this.value == val & this.name == group;
-    }).attr("checked", "true").checkboxradio("refresh");;
+	$(":checkbox").filter(function ()
+	{
+		var currentValue = parseInt(this.value);
+		var orderedValue = parseInt(val);
+		return (currentValue & orderedValue == currentValue) & this.name == group;
+	}).attr("checked", "true").checkboxradio("refresh");
 }

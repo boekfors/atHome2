@@ -42,6 +42,12 @@ PagesController.status = function () {
 PagesController.timechannels = function () {
     this.title = 'Ekfors@Home';
     this.header = "Tidkanaler";
+    var firstLight = model.Lights[0];
+    firstLight.Status = false;
+    firstLight.TimeChannels = 13;
+
+    model.Lights[0] = firstLight;
+    model.Lights[1].Status = false;
     this.lights = model.Lights;
     this.render();
 };
