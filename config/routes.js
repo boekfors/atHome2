@@ -12,5 +12,9 @@ module.exports = function routes()
 	this.match('light/timechannels', 'light#timechannels');
 	this.match('light/settings', 'light#settings');
 
+	this.post('light', 'light#saveStatus');
+	this.post('light/settings', 'light#saveSettings');
+	this.post('light/timechannels', 'light#timechannels');
+
 	this.match('heat', 'heat#status');
 }

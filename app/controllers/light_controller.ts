@@ -4,7 +4,8 @@ class Model
 {
     Lights : Light[] = [new Light('Entré','entre',true),
 		new Light('Framsida','framsida',false),
-		new Light('Baksida','baksida',true)];
+		new Light('Baksida','baksida',true),
+		new Light('Fönster','fonster',true)];
 }
 
 class Light
@@ -22,10 +23,10 @@ class Light
 			this.Name = name;
 			this.Id = id;
 			this.HasTimer = hasTimer;
-			this.Status = true;
-			this.FunctionMode = 8;
-			this.TimerDelay = 5;
-			this.TimeChannels = 1;
+			this.Status = false;
+			this.FunctionMode = 0;
+			this.TimerDelay = 0;
+			this.TimeChannels = 0;
 		}
 }
 
@@ -40,6 +41,7 @@ var PagesController = new Controller();
 PagesController.status = function() {
   this.title = 'Ekfors@Home';
   this.header = "Belysning";
+  //Read values from device
   this.lights = model.Lights;
   this.render();
 }
@@ -47,12 +49,7 @@ PagesController.status = function() {
 PagesController.timechannels = function() {
   this.title = 'Ekfors@Home';
   this.header = "Tidkanaler";
-  var firstLight = model.Lights[0];
-  firstLight.Status = false;
-  firstLight.TimeChannels = 13;
-
-  model.Lights[0] = firstLight;
-  model.Lights[1].Status = false;
+  //Read values from device
   this.lights = model.Lights;
   this.render();
 }
@@ -60,8 +57,26 @@ PagesController.timechannels = function() {
 PagesController.settings = function() {
   this.title = 'Ekfors@Home';
   this.header = "Inställningar";
+  //Read values from device
   this.lights = model.Lights;
   this.render();
 }
 
+PagesController.saveStatus = function() {
+
+  //Get light id and function mode value
+  this.redirect('/light');
+}
+
+PagesController.saveSettings = function() {
+
+  //Get [] {id, functionMode, timerDelay} 
+  this.redirect('/light/settings');
+}
+
+PagesController.saveTimeChannels = function() {
+
+  //Get [] {id, timeChannels} 
+  this.redirect('/light/settings');
+}
 module.exports = PagesController;

@@ -1,3 +1,0 @@
-listening on undefined:NaN
-- - - [Tue, 17 Dec 2013 06:23:55 GMT] "GET /light/timechannels HTTP/1.1" 200 7309 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
-- - - [Tue, 17 Dec 2013 06:24:04 GMT] "GET /light/settings HTTP/1.1" 200 3619 "http://localhost:34903/light/timechannels" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
