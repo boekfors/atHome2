@@ -71,12 +71,12 @@ PagesController.saveStatus = function() {
 PagesController.saveSettings = function() {
 
   //Get [] {id, functionMode, timerDelay} 
-  this.redirect('/light/settings');
+  
 }
 
 PagesController.saveTimeChannels = function() {
 
   //Get [] {id, timeChannels} 
-  this.redirect('/light/settings');
+  this.render('timeChannels');
 }
 module.exports = PagesController;

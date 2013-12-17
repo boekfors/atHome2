@@ -1,3 +1,4 @@
+/// <reference path="/scripts/jquery-2.0.3-vsdoc.js" />
 $(document).bind('pageinit', function ()
 {
 	$('body').on('tap', '.save', function (event, ui)
@@ -22,11 +23,19 @@ function checkWithValue(val, group) {
 
 function saveSettings()
 {
-	var requestData;
-	$('input:checked').each(function ()
+	var requestData = new Array();
+	$('.timeChannel').each(function ()
 	{
-		total += parseInt(this.value, 10);
-	});
-	
-	//Post data to save
+		var subTotal = 0;
+		$(this).find('input:checked').each(function ()
+		{
+			subTotal += parseInt(this.value, 10);
+		});
+
+		requestData.push({ Id: this.id, TimeChannels: subTotal });
+	})
+
+	$.post('/light/timeChannels', requestData,function( data ) {
+		  alert( "Data Loaded: " + data );
+		  });
 }

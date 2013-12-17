@@ -67,11 +67,16 @@ PagesController.saveStatus = function () {
 
 PagesController.saveSettings = function () {
     //Get [] {id, functionMode, timerDelay}
-    this.redirect('/light/settings');
+    this.title = 'Ekfors@Home';
+    this.header = "Tidkanaler - sparade";
+
+    //Read values from device
+    this.lights = model.Lights;
+    this.render();
 };
 
 PagesController.saveTimeChannels = function () {
     //Get [] {id, timeChannels}
-    this.redirect('/light/settings');
+    this.render('timeChannels');
 };
 module.exports = PagesController;

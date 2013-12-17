@@ -14,7 +14,7 @@ module.exports = function routes()
 
 	this.post('light', 'light#saveStatus');
 	this.post('light/settings', 'light#saveSettings');
-	this.post('light/timechannels', 'light#timechannels');
+	this.post('light/timechannels', 'light#saveTimechannels');
 
 	this.match('heat', 'heat#status');
 }
