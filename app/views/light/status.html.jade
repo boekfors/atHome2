@@ -1,6 +1,7 @@
 extends ../layout
 
 block head
+	script(type='text/javascript', src='/scripts/light/status.js')
 
 block headerleft
 
@@ -8,18 +9,28 @@ block headerright
 
 block content
 	form
-		div.ui-grid-a
+		div.ui-grid-b
 			div.ui-block-a 
 				h4 Grupp
 			div.ui-block-b 
 				h4 Status
+			div.ui-block-c
+				h4 Funktion
 			each light in lights
 					div.ui-block-a 
 						h4= light.Name 
 					div.ui-block-b 
 						select(data-role="slider", name=light.Id + "_status", id=light.Id + "_status")
 							option(value="On", selected=(light.Status===false ? "selected" : undefined)) Släckt
-							option(value="Off", selected=(light.Status===true ? "selected" : undefined)) Tänd	
+							option(value="Off", selected=(light.Status===true ? "selected" : undefined)) Tänd
+					div.ui-block-c
+						fieldset(data-role="controlgroup", data-type="horizontal")
+							input(type="radio", name=light.Id + "_function", id=light.Id + "_manfunction_auto", value="0", checked=(light.FunctionMode===0 ? "checked" : undefined))
+							label(for=light.Id + "_manfunction_auto") Auto
+							input(type="radio", name=light.Id + "_function", id=light.Id + "_manfunction_on", value="8", checked=(light.FunctionMode===8 ? "checked" : undefined))
+							label(for=light.Id + "_manfunction_on") På
+							input(type="radio", name=light.Id + "_function", id=light.Id + "_manfunction_limit", value="16", checked=(light.FunctionMode===16 ? "checked" : undefined))
+							label(for=light.Id + "_manfunction_limit") Begr	
 		div.align-center
 			a.smallbutton(data-role="button", href="/light/timechannels", data-theme="c", data-inline="true", data-icon="grid") Tidkanaler
 			a.smallbutton(data-role="button", href="/light/settings", data-theme="c", data-inline="true", data-icon="gear") Inställningar

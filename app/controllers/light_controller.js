@@ -18,7 +18,7 @@ var Light = (function () {
         this.Id = id;
         this.HasTimer = hasTimer;
         this.Status = true;
-        this.FunctionMode = 1;
+        this.FunctionMode = 8;
         this.TimerDelay = 5;
         this.TimeChannels = 1;
     }

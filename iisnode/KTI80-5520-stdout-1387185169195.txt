@@ -1,7 +1,0 @@
-listening on undefined:NaN
-- - - [Mon, 16 Dec 2013 09:12:50 GMT] "GET /light/timechannels HTTP/1.1" 200 6824 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
-- - - [Mon, 16 Dec 2013 09:12:50 GMT] "GET /light/scripts/timechannels.js HTTP/1.1" 404 - "http://localhost:34903/light" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
-- - - [Mon, 16 Dec 2013 09:14:12 GMT] "GET /light/timechannels HTTP/1.1" 200 6824 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36"
-- - - [Mon, 16 Dec 2013 09:14:13 GMT] "GET /light/scripts/timechannels.js HTTP/1.1" 404 - "http://localhost:34903/light/timechannels" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36"
-- - - [Mon, 16 Dec 2013 09:14:18 GMT] "GET /scripts/jquery-2.0.3.min.map HTTP/1.1" 404 - "http://localhost:34903/light/timechannels" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36"
-- - - [Mon, 16 Dec 2013 09:15:10 GMT] "GET /light/timechannels HTTP/1.1" 200 6831 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"

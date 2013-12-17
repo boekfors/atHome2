@@ -1,4 +1,0 @@
-listening on undefined:NaN
-- - - [Mon, 16 Dec 2013 09:08:54 GMT] "GET /light/settings HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
-- - - [Mon, 16 Dec 2013 09:10:33 GMT] "GET /light/settings HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
-- - - [Mon, 16 Dec 2013 09:10:35 GMT] "GET /light/settings HTTP/1.1" 200 3615 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko"
